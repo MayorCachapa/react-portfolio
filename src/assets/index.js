@@ -1,4 +1,4 @@
-import Logo from './logo-no-background.png'
+import Logo from './logo-no-background-2.png'
 import Banner from './banner.jpg'
 
 export { 
