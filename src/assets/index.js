@@ -1,3 +1,3 @@
-import Logo from './logo-no-background-no-slogan.png'
+import Logo from './logo-no-background.png'
 
 export { Logo }
