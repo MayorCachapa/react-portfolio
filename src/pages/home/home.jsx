@@ -2,7 +2,9 @@ import React from 'react';
 import { TypeAnimation } from 'react-type-animation'
 import { Link } from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link'
-import { Banner } from '../../assets'
+import { Banner, PatternImg } from '../../assets'
+import Scroller from '../../components/scroller'
+import { portfolioData } from '../../data'
 
 function Home() {
   return (
@@ -55,8 +57,35 @@ function Home() {
             </div>
           </div>
         </div>
-
       </section>
+
+      <section id='projects' className='px-4 pb-12 bg-slate-700 bg-fixed' style={{ backgroundImage: "url(" + PatternImg + ")"}}>
+        <div className='container mx-auto'>
+          <div className='text-slate-50 text-center py-12'>
+            <h1 className='text-3xl lg:text-4xl xl:text-6xl font-bold mb-6 uppercase'>
+              Selected Projects
+            </h1>
+            <p className='max-w-xl mx-auto text-lg'>
+              As a Finance Professional, I developed a strong skill-set in analysis, problem-solving and team work/management. Now I translate these skills into creative and efficient solutions in Software and Web development.             
+            </p>
+          </div>
+
+          <div className='grid md:grid-cols-2 gap-8 mb-28'>
+              {portfolioData.map((item, index) => {
+                return (<Link to={item.link} key={index} className='md:event:pt-12 ease-in-out duration-150 hover:translate-y-[-4px] hover:drop-shadow-[10px_8px_0_rgba(0,0,0,1)]'>
+                  <div className='rounded-xl overflow-hidden bg-black'>
+                    <img src={item.thumbnail} alt={item.alt} loading='lazy'/>
+                  </div>
+                  {item.title}
+                  {item.thumbnail}
+                </Link>)
+              })}
+          </div>
+
+        </div>
+      </section>
+
+      <Scroller link="/contact" />
     </div>
   )
 }

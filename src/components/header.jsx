@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { Logo } from '../assets/index.js'
+import { HashLink } from 'react-router-hash-link'
 
 const activeClass = 'text-xl text-slate-400'
 
@@ -35,12 +36,12 @@ function Header() {
                     </NavLink>
                 </li>
                 <li className='hover:text-xl ease-in-out duration-150'>
-                    <NavLink to='projects'
+                    <HashLink to='#projects'
                         className={({ isActive }) => 
                         isActive ? activeClass : undefined
                     }>
                         PROJECTS
-                    </NavLink>
+                    </HashLink>
                 </li>
             </ul>
         </nav>
