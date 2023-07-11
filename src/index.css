@@ -3,6 +3,16 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    @apply scroll-smooth;
+}
+
 body {
     background-color: #FAF4F0;
+}
+
+@layer utilities {
+    .word-spacing {
+        word-spacing: 2px;
+    }
 }
