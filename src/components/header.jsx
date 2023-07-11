@@ -7,7 +7,7 @@ const activeClass = 'text-xl text-slate-400'
 
 function Header() {
   return (
-    <header className='grid grid-cols-2 md:grid-cols-[220px_1fr_220px] border-slate-100 shadow-lg'>
+    <header className='grid grid-cols-2 md:grid-cols-[220px_1fr_220px] border-slate-100 shadow-lg sticky top-0 z-40'>
         <Link className='flex justify-center bg-slate-50  hover:bg-slate-200 ease-in-out duration-75' to='/'>
             <img src={Logo} alt="Histeria" width={120} className='my-1'/>
         </Link>

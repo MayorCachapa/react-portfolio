@@ -13,6 +13,6 @@ body {
 
 @layer utilities {
     .word-spacing {
-        word-spacing: 8px;
+        word-spacing: 2px;
     }
 }
