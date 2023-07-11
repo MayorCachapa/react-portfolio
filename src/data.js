@@ -6,28 +6,21 @@ export const portfolioData = [
         title: 'Histeria Labs',
         thumbnail: Histeria1,
         alt:'Homepage of Histeria Labs',
-        category:'Frontend Development / portfolio',
+        category:'Frontend Development',
         link: '#'
     },
     {
         title: 'WaxWorks',
         thumbnail: Waxworks1,
         alt:'Homepage of WaxWorks',
-        category:'Fullstack Development / e-commerce',
+        category:'Fullstack Development',
         link: '#'
     },
     {
         title: 'Casaya',
         thumbnail: Casaya1,
         alt:'Homepage of Casaya',
-        category:'Backend Development / e-commerce',
+        category:'Backend Development',
         link: '#'
     },
-    {
-        title: 'Casaya',
-        thumbnail: "",
-        alt:'',
-        category:'',
-        link: '#'
-    }
 ]
