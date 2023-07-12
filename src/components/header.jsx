@@ -28,12 +28,12 @@ function Header() {
                     </NavLink>
                 </li>
                 <li className='hover:text-xl ease-in-out duration-150'>
-                    <HashLink to='#projects'
+                    <NavLink to='projects'
                         className={({ isActive }) => 
                         isActive ? activeClass : undefined
                     }>
                         PROJECTS
-                    </HashLink>
+                    </NavLink>
                 </li>
                 <li className='hover:text-xl ease-in-out duration-150'>
                     <NavLink to='about'
