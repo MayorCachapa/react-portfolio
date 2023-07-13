@@ -20,7 +20,6 @@ function Scroller({ link }) {
                 <i className="devicon-rails-plain"></i>
                 <i className="devicon-postgresql-plain"></i>
               </div>
-
             </Marquee>
         </Link>
     </section>

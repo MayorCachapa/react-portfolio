@@ -4,7 +4,7 @@ import { Logo } from '../assets'
 
 function Contact() {
   return (
-    <section className='px-4 bg-slate-800 text-slate-50 hover:bg-slate-200 hover:text-slate-700 ease-in-out duration-200'>
+    <section className='px-4 bg-slate-800 text-slate-50 hover:bg-slate-200 hover:text-slate-800 ease-in-out duration-200'>
       <Link to='/contact'>
         <div className='container flex justify-between mx-auto md:flex gap-8 py-8'>
           <div className='flex-col items-center'>            
