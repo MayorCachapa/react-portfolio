@@ -4,7 +4,7 @@ import { Logo2 } from '../assets/index.js'
 
 function Footer() {
   return (
-    <footer className='bg-emerald-800 grid grid-cols-2 md:grid-cols-[220px_1fr_220px] border-slate-100 shadow-lg'>
+    <footer className='bottom-0 bg-emerald-800 grid grid-cols-2 md:grid-cols-[220px_1fr_220px] border-slate-100 shadow-lg'>
         <div className='flex justify-center' >
             <img src={Logo2} alt="Histeria" width={120} className='my-1'/>
         </div>

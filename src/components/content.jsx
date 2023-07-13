@@ -5,7 +5,7 @@ import { portfolioData } from '../data'
 
 function Content() {
   return (
-    <section id='projects' className='px-4 pb-4 bg-slate-700 bg-fixed' style={{ backgroundImage: "url(" + PatternImg + ")"}}>
+    <section id='projects' className='px-4 pb-4 bg-slate-800 bg-fixed' style={{ backgroundImage: "url(" + PatternImg + ")"}}>
     <div className='container mx-auto'>
       <div className='text-slate-50 text-center py-12'>
         <h1 className='text-3xl lg:text-4xl xl:text-6xl font-bold mb-6 uppercase'>

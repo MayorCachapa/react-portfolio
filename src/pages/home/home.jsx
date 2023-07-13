@@ -7,13 +7,13 @@ import Services from '../../components/services'
 
 function Home() {
   return (
-    <div>
+    <main>
       <Banner />
       <Content />
       <Scroller />
       <Services />
       <Contact />
-    </div>
+    </main>
   )
 }
 

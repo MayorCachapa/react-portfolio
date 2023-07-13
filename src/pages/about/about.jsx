@@ -1,6 +1,6 @@
 import React from 'react'
 import { socials } from '../../data'
-import { Banner } from '../../assets'
+import { BannerImg } from '../../assets'
 import Contact from '../../components/contact'
 
 function About() {
@@ -8,8 +8,8 @@ function About() {
     <main>
       <section className='py-12 mx-2'>
         <div className='container mx-auto grid gap-8 px-4 lg:grid-cols-2'>
-          <div className=''>
-            <h1 className='text-slate-700 text-4xl lg:text-5xl xl:text:7xl font-bold mb-4 md-flex-1'>
+          <div>
+            <h1 className='text-slate-700 tracking-wider text-6xl lg:text-7xl xl:text:8xl font-bold mb-4 md-flex-1'>
               About me
             </h1>
             <p className='mb-2 text-lg'>
@@ -38,10 +38,10 @@ function About() {
           </div>
   
           <div className='md:flex-1 md:order-2'>
-            <picture className='flex drop-shadow-[10px_-10px_0_hsla(217,33%,17%,0.79)] border-black rounded-xl overflow-hidden'>
-              <source srcSet={Banner} width={363} height={222} media='(max-width: 400px)' type='image/jpg'/>
-              <source srcSet={Banner} width={520} height={372} media='(max-width: 680px)' type='image/jpg'/>
-              <img src={Banner} alt="Banner with a globe showing Venezuela" width={680} height={532} media='(max-width: 400px)' type='image/jpg' />
+            <picture className='flex drop-shadow-[10px_-10px_0_hsla(217,33%,17%,0.79)] rounded-xl overflow-hidden'>
+              <source srcSet={BannerImg} width={363} height={222} media='(max-width: 400px)' type='image/jpg'/>
+              <source srcSet={BannerImg} width={520} height={372} media='(max-width: 680px)' type='image/jpg'/>
+              <img src={BannerImg} alt="Banner with a globe showing Venezuela" width={680} height={532} media='(max-width: 400px)' type='image/jpg' />
             </picture>
           </div>
         </div>
